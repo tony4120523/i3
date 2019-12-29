@@ -151,6 +151,8 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 # volume binding with alsa command
 bindsym $mod+minus exec "amixer set Master 5%-"
 bindsym $mod+equal exec "amixer set Master 5%+"
+bindsym $mod+z exec "amixer set Master 5%-"
+bindsym $mod+x exec "amixer set Master 5%+"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
